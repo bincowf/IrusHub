@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;  
+}
+.header ul{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    list-style: none;
+
+}
+.header img{
+    width: 170px;
+}
+.main-parent{
+    height: 550px;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px;
+    color: white;
+}
+.main-left{
+    width: 450px;
+
+}
+
+.main-right{
+    width: 450px;
+    margin-right: 80px;
+}
+.main-left h1{
+    font-size: 70px;
+}
+.main-right iframe{
+    width: 450px;
+    height: 300px;
+    margin-top: 20px;
+    border-top: 28px solid white;
+    border-radius: 20px;
+    
+}
